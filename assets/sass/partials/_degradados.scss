@@ -1,0 +1,79 @@
+.degPrimario{
+    span{
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
+    .degradado{
+        background: $primaryGradient;
+    }
+}
+.degSecundario{
+    span{
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
+    .degradado{
+        background: $secondaryGradient;
+    }
+}
+.degSuccess{
+    span{
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
+    .degradado{
+        background: $successGradient;
+    }
+}
+.degDanger{
+    span{
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
+    .degradado{
+        background: $dangerGradient;
+    }
+}
+.degWarning{
+    span{
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
+    .degradado{
+        background: $warningGradient;
+    }
+}
+.degInfo{
+    span{
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
+    .degradado{
+        background: $infoGradient;
+    }
+}
+.degEscala{
+    span{
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
+    .degradado{
+        background: $greyScaleGradient;
+    }
+}
+
+.degradado{
+    width: 200px;
+    height: 100px;
+}
+
+.degradados{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2.5rem;
+    h4{
+        width: 100%;
+        margin-top: 1rem;
+    }
+}

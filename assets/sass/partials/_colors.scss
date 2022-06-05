@@ -1,0 +1,67 @@
+#color{
+    .colors{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 2.5rem;
+        .colorScale{
+           
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            
+            .colorTitle{
+                width: 10%;
+                margin-bottom: 0 !important;
+            }
+            .colorBase{
+                width: 90px;
+                height: 90px;
+                border-radius: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              
+                .hex{
+                   
+                }
+                &:hover{
+                    background-color: $primary900 !important;
+
+                    .hex{
+                        display: inline;
+                    }
+                }
+            }
+            .colorHue{
+                width: $colorMeasure;
+                //width: 90px;
+                height: 90px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                &:hover{
+                    background-color: $primary900 !important;
+                    transition: all ease-in-out;
+                    .hex{
+                        display: inline;
+                    }
+                }
+            }
+            .hex{
+                display: none;
+                color: #ffffff !important;
+                &:hover{
+                    cursor: default;
+                }
+            }
+        }
+    }
+}
+
+.primary .colorHue{
+    &:last-child{
+        border: 1px solid $primary400
+    }
+}

@@ -1,0 +1,33 @@
+.table{
+    display: flex;
+    flex-direction: column;
+   
+    margin: 3rem auto;
+    width: 70%;
+    .tableHeading{
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        font-weight: 500;
+        font-size: .85rem;
+        padding: 1rem;
+    }
+    .tipografiaContent{
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        padding: 1rem;
+        border-top: 1px solid $primary100;
+        h1, h2, h3, h4, h5, h6, i, b, em, small, .regular, .light, .caption, .xs, .btn_large,.btn_medium, .btn_small{
+            margin: 0;
+        }
+
+    }
+}
+
+.fixedWidth{
+    min-width: 80px;
+    vertical-align: middle;
+    font-size: .85rem;
+    
+}

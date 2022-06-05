@@ -1,0 +1,78 @@
+h1{
+   @include fontProperty(3.25rem, 600, 3.8rem);
+}
+h2{
+    @include fontProperty(2.35rem, 600, 2.75rem);
+}
+h3{
+    @include fontProperty(1.85rem, 600, 2.5rem);
+}
+h4{
+    @include fontProperty(1.35rem, 600, 1.55rem);
+}
+h5{
+    @include fontProperty(1.25rem, 600, 1.45rem);
+}
+h6{
+    @include fontProperty(1.25rem, 400, 1.45rem);
+}
+
+span.light{
+    @include fontProperty(1rem, 300, 1.25rem);
+}
+span.xs{
+    @include fontProperty(.75rem, 400, .85rem);
+}
+span.caption{
+    @include fontProperty(.75rem, 400, .85rem);
+}
+i{
+    @include fontProperty(1rem, 400, 1.25rem);
+    font-style: italic;
+}
+
+p{
+    @include fontProperty(1rem, 400, 1.25rem);
+}
+b{
+    @include fontProperty(1rem, 600, 1.25rem);
+}
+em{
+    @include fontProperty(1rem, 700, 1.25rem);
+    font-style: normal;
+}
+small, span.small{
+    @include fontProperty(.85rem, 400, 1rem);
+
+}
+
+.btn_large{
+    @include fontProperty(1.15rem, 600, 1.35rem);
+    text-transform: uppercase;
+}
+
+.btn_medium{
+    @include fontProperty(1rem, 600, 1.25rem);
+    text-transform: uppercase;
+}
+.btn_small{
+    @include fontProperty(.85rem, 600, 1rem);
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color: $primary900;
+}
+
+.descriptionContainer{
+    column-count: 2;
+    column-gap: 2.2rem;
+    
+    a{
+        text-decoration: underline;
+    }
+}
+.description{
+    width: 47%;
+}

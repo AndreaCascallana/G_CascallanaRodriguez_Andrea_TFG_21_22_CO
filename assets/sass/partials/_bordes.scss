@@ -1,0 +1,42 @@
+.bordes{
+    display: flex;
+   
+    gap: 2rem;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+    .borde{
+        
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+        .bordeElem{
+            height: 100px;
+            width: 100px;
+            background-color: $primary900;
+        }
+
+        .max{
+            border-radius: 50%;
+        }
+        .maxmid{
+            border-radius: 8px;
+        }
+        .mid{
+            border-radius: 6px;
+        }
+        .minmid{
+            border-radius: 4px;
+        }
+        .min{
+            border-radius: 2px;
+        }
+        .outline{
+            background-color: transparent !important;
+            border: 2px solid $primary900;
+        }
+    }
+}

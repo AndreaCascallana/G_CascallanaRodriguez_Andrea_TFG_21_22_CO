@@ -1,0 +1,181 @@
+#inputs{
+    b{
+        margin: 2rem 0 ;
+        display: block;
+    }
+    img{
+        width: 100%;
+        //margin-bottom: 2rem;
+    }
+}
+#snackbar{
+    .snackbars{
+        width: 50%;
+        margin: 3rem auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        .snackBar{
+            display: inline-block;
+            background-color: $primary900;
+            color: #fff;
+            box-shadow: $shadowBlur;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            button{
+                margin-left: 2rem;
+                color: #fff !important;
+                padding: 0;
+            }
+        }
+    }
+    
+}
+#badge{
+    .badgeImage{
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        img{
+            width: 100%;
+        }
+    }
+}
+#menu{
+    .containerImg{
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+    img{
+        width: 100%;
+        margin: 0 auto;
+
+    }
+}
+#submenu{
+   .submenuImages{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        img{
+            vertical-align: top;
+            width: 48%;
+        }
+   }
+ 
+   
+}
+#formularios{
+    .formImage{
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        img{
+            width: 100%;
+        }
+    }
+}
+#dropdowns{
+    .dropdownImages{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        margin: 0 0;
+        margin-top: 2rem;
+        img{
+            &:first-child{
+                width: 30%;
+            }
+            &:last-child{
+                margin-top: .5rem;
+            }
+            width: 50%;
+            object-fit: contain;            
+        }
+    }
+}
+
+#cards{
+    .cardsImages{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        img{
+            width: 40%;
+            &:first-child{
+                width: 100%
+            }
+            &:nth-child(3){
+                width: 50%;
+                object-fit: contain;
+            }
+            &:last-child{
+                width: 19%;
+            }
+        }
+    }
+}
+#modales{
+    .modalesImages{
+
+        width: 70%;
+        margin: 2rem auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2.3rem;
+        img{
+            object-fit: contain;
+            width: 100%;
+            &:nth-child(3){
+                width: 55%;
+            }
+            &:last-child{
+                width: 33%;
+            }
+        }
+    }
+}
+#carrusel{
+
+    .carruselImage{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        img{
+            width: 100%;
+        }
+    }
+   
+}
+
+#alerts{
+
+    .alertsImages {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+#botonGrupo{
+    .buttonGroupImage{
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+#header, #footer{
+    img{
+        margin-top: 2rem;
+        width: 100%;
+    }
+}

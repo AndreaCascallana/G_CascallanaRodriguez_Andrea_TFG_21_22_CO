@@ -1,0 +1,124 @@
+$font_family_base: 'Work sans', 'Helvetica', sans-serif;
+$font_size_base: 16px;
+$font_weight_base: normal;
+$line_height_base: 1.4;
+$body_color: #333;
+$body_bg: #fff;
+
+
+$headings_margin_bottom: 1em;
+$paragraph_margin_bottom: 1em;
+
+$dt_font_weight: bold;
+
+$link_color: #345c8d;
+$link_decoration: none;
+$link_hover_color: darken($link_color, 10%);
+$link_hover_decoration: none;
+$table_cell_padding: .5em;
+
+$text_muted: lighten($body_color, 15%);
+
+$base: .5rem;
+
+/////////
+
+// COLOR PALETTE
+
+$primary50: #F1F7FF;
+$primary100: #EAF0FF;
+$primary200: #DFE5FD;
+$primary300: #CED4EC;
+$primary400: #AAB0C6;
+$primary500: #8A90A5;
+$primary600: #62687C;
+$primary700: #4F5568;
+$primary800: #313749;
+$primary900: #101727; //base
+
+$secondary50: #FAEBED;
+$secondary100: #F4CDD0;
+$secondary200: #DE9B98; //base
+$secondary300: #CE7772;
+$secondary400: #D55C51;
+$secondary500: #D94E38;
+$secondary600: #CB4536;
+$secondary700: #BA3D30;
+$secondary800: #AD362A;
+$secondary900: #9F2D1F;
+
+// CONTEXTUAL COLOR CUES
+
+$success50: #E6F6E7;
+$success100: #C4E9C4;
+$success200: #9DDB9F;
+$success300: #72CE77;
+$success400: #4EC358; //base
+$success500: #2CB73B;
+$success600: #20A832;
+$success700: #0E9527;
+$success800: #00841C;
+$success900: #006507;
+
+$danger50: #FDECF0;
+$danger100: #FCD0D6;
+$danger200: #EB9FA2;
+$danger300: #E07B7F;
+$danger400: #EB5F60;
+$danger500: #F05149;
+$danger600: #E24948;
+$danger700: #CF4041;
+$danger800: #C23A3A; //base
+$danger900: #B23230;
+
+$warning50: #FFFDEC;
+$warning100: #FFF8D1;
+$warning200: #FFF4B4;
+$warning300: #FFEF99;
+$warning400: #FDEA86;
+$warning500: #FBE477; //base
+$warning600: #FCDA77;
+$warning700: #F4C46E;
+$warning800: #ECAF66;
+$warning900: #DE8E59;
+
+$info50: #E4F6F7;
+$info100: #BDE9EB;
+$info200: #98DBDE; //base
+$info300: #76CCD2;
+$info400: #60C2CA;
+$info500: #54B8C3;
+$info600: #4FA8B1;
+$info700: #489399;
+$info800: #417F82;
+$info900: #335C5B;
+
+$greyScale50: #FAFAFA;
+$greyScale100: #F5F5F5;
+$greyScale200: #EEEEEE;
+$greyScale300: #E0E0E0;
+$greyScale400: #BDBDBD;
+$greyScale500: #9E9E9E;
+$greyScale600: #757575;
+$greyScale700: #616161;
+$greyScale800: #424242;
+$greyScaleBlack: #212121;
+$greyScaleWhite: #FFFFFF;
+
+/// GRADIENTS
+
+$primaryGradient: linear-gradient(180deg, #101727 0%, rgba(241, 247, 255, 0.5) 100%);
+$secondaryGradient: linear-gradient(180deg, #DE9B98 0%, rgba(241, 247, 255, 0.5) 100%);
+$successGradient: linear-gradient(180deg, #4EC358 0%, rgba(241, 247, 255, 0.5) 100%);
+$dangerGradient: linear-gradient(180deg, #C23A3A 0%, rgba(241, 247, 255, 0.5) 100%);
+$warningGradient: linear-gradient(180deg, #FBE477 0%, rgba(241, 247, 255, 0.5) 100%);
+$infoGradient: linear-gradient(180deg, #76CCD2 0%, rgba(241, 247, 255, 0.5) 100%);
+$greyScaleGradient: linear-gradient(180deg, #212121 0%, rgba(241, 247, 255, 0.5) 100%);
+
+// SHADOWS
+
+$shadowRight: 8px 8px 8px rgba(16, 23, 39, 0.15);
+$shadowLeft: -8px 8px 8px rgba(16, 23, 39, 0.15);
+$shadowBlur: 0px 0px 16px 16px rgba(0, 0, 0, 0.15);
+
+$colorMeasure: calc((100% - 20%) / 10);

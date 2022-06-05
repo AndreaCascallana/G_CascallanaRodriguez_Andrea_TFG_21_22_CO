@@ -1,0 +1,6 @@
+@mixin fontProperty($fs, $fw, $lh){
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+    color: $primary900;
+}

@@ -1,0 +1,69 @@
+.espaciado_sombras{
+    display: flex;
+    align-items: baseline;
+    gap: 2rem;
+    .description{
+        width: 100% !important;
+    }
+
+    .espaciados{
+        display: flex;
+        gap: 2rem;
+        margin: 3rem auto;
+        margin-top: 3rem;
+        width: 40%;
+        .espaciadoTexto{
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        .espaciadoDiv{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 1.5rem;
+            .lineSpacing{
+                height: 20px;
+                background-color: $primary900;
+            }
+        }
+    }
+
+    .elevaciones{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2rem;
+        padding: 2rem;
+        .elevacion{
+            width: 100px;
+            height: 100px;
+            background-color: $primary900;
+            border-radius: 4px;
+          
+        }
+        .elevacion1{
+            box-shadow: $shadowRight;
+        }
+        .elevacion2{
+            box-shadow: $shadowLeft;
+        }
+        .elevacion3{
+            box-shadow: $shadowBlur;
+        }
+    
+    }
+   
+}
+
+#iconos{
+    .iconImage{
+        width: 40%;
+        margin: 2rem auto;
+        img{
+           
+            width: 100%;
+        }
+    }
+   
+}

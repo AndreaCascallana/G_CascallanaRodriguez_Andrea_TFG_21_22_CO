@@ -1,0 +1,201 @@
+.btn_primary{
+    background-color: $primary900;
+    color: $greyScaleWhite !important;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+
+    &.hover{
+        background-color: $primary800;
+    }
+    &.pressed{
+        background-color: $primary600;
+    }
+    &.disabled{
+        background-color: $primary400;
+    }
+  
+}
+.btn_icon{
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    span{
+        
+        margin: 0 !important;
+    }
+}
+.btn_outline{
+    border: 1px solid $primary900;
+    color: $primary900;
+    outline: none;
+    background-color: transparent;
+    border-radius: 4px;
+    &.hover{
+        background-color: $primary200;
+    }
+    &.pressed{
+        background-color: $primary300;
+        border-color: $primary800;
+    }
+    &.disabled{
+        border-color: $primary400;
+        color: $primary400;
+    }
+}
+.btn_rndoutline{
+    border: 1px solid $primary900;
+    color: $primary900;
+    outline: none;
+    border-radius: 100px;
+    background-color: transparent;
+    &.hover{
+        background-color: $primary200;
+    }
+    &.pressed{
+        background-color: $primary300;
+        border-color: $primary800;
+    }
+    &.disabled{
+        border-color: $primary400;
+        color: $primary400;
+    }
+}
+.btn_ghost{
+    color: $primary900;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    &.hover{
+        background-color: $primary200;
+    }
+    &.pressed{
+        background-color: $primary300;
+    }
+    &.disabled{
+        color: $primary400;
+    }
+}
+.btn_onlyicon{
+    color: $primary900;
+    outline: none;
+    border: 1px solid $primary900;
+    border-radius: 100px;
+    background-color: transparent;
+    &.btn_large{
+        padding: 1.25rem;
+        font-size: 1.25rem;
+    }
+    &.btn_medium{
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    &.btn_small{
+        padding: .75rem;
+        padding: .75rem;
+    }
+    &.hover{
+        background-color: $primary200;
+    }
+    &.pressed{
+        background-color: $primary300;
+        border-color: $primary800;
+    }
+    &.disabled{
+        border-color: $primary400;
+        color: $primary400;
+    }
+   
+}
+.btn_large{
+    @include fontProperty(1.15rem, 500, 1.35rem);
+    text-transform: uppercase;
+    padding: .75rem 1.25rem;
+    span{
+        font-size: 1.15rem;
+    }
+}
+
+.btn_medium{
+    @include fontProperty(1rem, 500, 1.25rem);
+    text-transform: uppercase;
+    padding: .5rem 1rem ;
+    span{
+        font-size: 1rem;
+    }
+}
+
+.btn_small{
+    @include fontProperty(.85rem, 500, 1rem);
+    text-transform: uppercase;
+    padding: .25rem .75rem ;
+    span{
+        font-size: .85rem;
+    }
+}
+
+.botonera{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 80%;
+    margin: 0 auto;
+    & > span{
+        width: 100%;
+        display: block;
+        margin: 1.5rem 0 1rem 0;
+    }
+    b{
+        width: 100%;
+        margin: 2rem 0 1rem 0;
+    }
+    .types{
+        display: flex;
+        flex-direction: column;
+        gap: .75rem;
+        width: 15%;
+
+        span{
+            margin-bottom: 2rem;
+        }
+    }
+    .typesIcons{
+        span{
+            margin-bottom: 2.75rem;
+        }
+    }
+    .actualButtons{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        
+        .buttonsLarge{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+        .buttonsMedium{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+        .buttonsSmall{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+        .buttonsGrouped{
+            width: calc(100%/4);
+            gap:  2rem;
+            span{
+                width: 100%;
+                display: block;
+                margin-bottom: 2rem;
+            }
+            button{
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
